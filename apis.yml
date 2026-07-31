@@ -1,4 +1,16 @@
 aid: modulus-video
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/modulus-video.png
 name: Modulus Video
 description: 'Modulus Video is a company surfaced as a portfolio company of trinity-ventures and added
   to the API Evangelist network as a stub for enrichment. Sector: hardware. This profile is a lead awaiting
@@ -12,7 +24,13 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+x-website-status: parked-for-sale
+x-website-status-note: 'modulusvideo.com (302 -> hugedomains.com, HTTP 200) and www.modulusvideo.com
+  both resolve to a HugeDomains parked/for-sale page; modulus.video does not resolve (TLS
+  unrecognized name). No live company website, developer portal, or API surface found.
+  Modulus Video was a video-encoder hardware vendor that has since gone defunct/acquired;
+  no artifacts could be enriched.'
 tags:
 - Company
 - Hardware
@@ -22,3 +40,8 @@ maintainers:
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
